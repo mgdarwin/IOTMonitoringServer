@@ -58,7 +58,8 @@ def analyze_data_new():
                 state = itemUnaHora['station__location__state__name']
                 city = itemUnaHora['station__location__city__name']
                 user = itemUnaHora['station__user__username']
-
+                
+                print("ValorUnaHora= ",valueUnaHora, "ValorDosHoras= ", valueDosHoras)
                 if valueUnaHora > valueDosHoras:
                     alert = True
 
