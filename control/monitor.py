@@ -60,7 +60,7 @@ def analyze_data_new():
                 user = itemUnaHora['station__user__username']
                 
                 print("ValorUnaHora= ",valueUnaHora, "ValorDosHoras= ", valueDosHoras)
-                if valueUnaHora > valueDosHoras:
+                if valueUnaHora < valueDosHoras:
                     alert = True
 
                 if alert:
